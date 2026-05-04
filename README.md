@@ -151,6 +151,20 @@ python3 run_semantic_lift.py \
     --output-json outputs/vga_socket_result.json
 ```
 
+Added: New script for exam answer:
+Please run: 
+```bash
+python3 run_semantic_lift_single_and_multi.py \
+    --mode single \
+    --frame frame_000465.png  \ 
+    --text-query dummy \
+    --image-dir Data/images \
+    --poses-path Data/poses_all.json \
+    --intrinsics-path Data/intrinsic.json \
+    --ply-path outputs/reconstruction/point_cloud.ply \
+    --depth-path Data/depth_outputs \
+    --output-json outputs/vga_socket_result.json
+```
 ---
 
 # 🔬 Method Overview
