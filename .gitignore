@@ -1,0 +1,5 @@
+model/
+model_bin/
+tri_txt/
+triangulated/
+database.db
